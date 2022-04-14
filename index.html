@@ -14,6 +14,11 @@
 
     <link rel="stylesheet" href="assets/style/style.css">
     <title>1st template</title>
+
+    <!-- js -->
+    <script defer src="./assets/js/sticky.js"></script>
+    <script defer src="./assets/js/modal.js"></script>
+    <script defer src="./assets/js/sectionFadeIn.js"></script>
 </head>
 
 <body>
@@ -26,12 +31,11 @@
                 </div>
 
                 <nav>
-                    <ul>
-                        <li><a href="#">SERVICES</a></li>
-                        <li><a href="#">PRODUCTS</a></li>
-                        <li><a href="#">ABOUT</a></li>
-                        <li><a href="#">TEAM</a></li>
-                        <li><a href="#">CONTACT</a></li>
+                    <ul class="nav__links">
+                        <li class="nav__item"><a class="nav__link" href="#section--1">SERVICES</a></li>
+                        <li class="nav__item"><a class="nav__link" href="#section--2">PRODUCTS</a></li>
+                        <li class="nav__item"><a class="nav__link" href="#section--3">TEAM</a></li>
+                        <li class="nav__item"><a class="nav__link" href="#">CONTACT</a></li>
                     </ul>
                 </nav>
 
@@ -51,7 +55,7 @@
 
         <!--------------------- services ----------------->
         <div class="main-container">
-            <div class="services-container">
+            <section class="services-container section" id="section--1">
                 <div class="head-container">
                     <h1 class="heading">SERVICES</h1>
                     <p class="description">Lorem ipsum dolor sit amet consectetur.</p>
@@ -112,9 +116,9 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
             <!-------------------- items ----------------->
-            <div class="items-container">
+            <section class="items-container section" id="section--2">
                 <div class="head-container">
                     <h1 class="heading">PRODUCTS</h1>
                     <p class="description">Lorem ipsum dolor sit amet consectetur.</p>
@@ -210,9 +214,9 @@
                 </div>
 
 
-            </div>
+            </section>
             <!------------- Team ------------->
-            <div class="team-container">
+            <section class="team-container section" id="section--3">
                 <div class="team-heading">
                     <h1 class="heading">OUR AMAZING TEAM</h1>
                     <p class="description">Lorem ipsum dolor sit amet consectetur.</p>
@@ -359,9 +363,7 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos
                         non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
                 </div>
-            </div>
-
-
+            </section>
         </div>
     </main>
 
@@ -394,10 +396,6 @@
 
     <footer>
     </footer>
-
-
-    <script src="./assets/js/sticky.js"></script>
-    <script src="./assets/js/modal.js"></script>
 </body>
 
 </html>

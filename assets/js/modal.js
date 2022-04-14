@@ -31,8 +31,3 @@ document.addEventListener('keydown', function (event) {
         closeModal();
     }
 });
-
-alert('hello');
-
-
-
