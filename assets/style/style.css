@@ -412,7 +412,7 @@ nav a:hover {
     height: 100vh;
     margin: 0 auto;
     padding: 56px 0;
-    background-image: url(../img/background-post.jpg);
+    background-image: url(../img/contact-bg.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -500,8 +500,6 @@ footer .row {
     text-decoration: none;
     margin-right: 20px;
 }
-
-
 
 
 /* ----------------responsive ------------*/
