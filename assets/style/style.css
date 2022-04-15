@@ -46,8 +46,16 @@ html::-webkit-scrollbar-thumb {
     right: 0;
 }
 
-/* ----------navbar------------- */
+.section {
+    transition: 1s ease-in-out;
+}
 
+.section--hidden {
+    opacity: 0;
+    transform: translateX(-200px);
+}
+
+/* ----------navbar------------- */
 .navbar {
     display: flex;
     justify-content: space-evenly;
@@ -412,7 +420,7 @@ nav a:hover {
     height: 100vh;
     margin: 0 auto;
     padding: 56px 0;
-    background-image: url(../img/contact-bg.jpg);
+    background-image: url(../img/background-post.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
